@@ -62,6 +62,7 @@ def turn(board)
   index = gets.strip;
   index1 = input_to_index(index)
   valid_move?(board,index1)
+  puts "Move invalid, please enter 1-9 that is not currently taken:"
 end
 
 
