@@ -3,3 +3,13 @@ Receiving the user input.
 Convert position to an index.
 If the move is valid, make the move and display the board to the user.
 If the move is invalid, ask for a new move until a valid move is received.
+
+ask for input
+get input
+convert input to index
+if index is valid
+  make the move for index
+  show the board
+else
+  ask for input again until you get a valid input
+end
