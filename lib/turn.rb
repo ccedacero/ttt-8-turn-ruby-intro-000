@@ -56,4 +56,6 @@ return false
 end
 end
 
+def turn(board)
+  puts =
 
