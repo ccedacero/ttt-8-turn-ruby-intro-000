@@ -64,6 +64,7 @@ def turn(board)
   is_valid = valid_move?(board,index1)
   if  is_valid == false
   puts "Move invalid, please enter 1-9 that is not currently taken:"
+  turn(board)
 else 
  move(board,index1,char = 'X')
 end
