@@ -6,6 +6,16 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+# code your #position_taken? method here!
+def position_taken?(board, index)
+  if (board[index] ==" "|| board[index] == "")
+    return false;
+    elsif board[index] == nil
+  return false;
+else 
+  return true
+end
+end
 # Define display_board that accepts a board and prints
 # out the current state
 def input_to_index(num)
@@ -25,6 +35,15 @@ def display_board(board)
   puts " #{board[3]} | #{board[4]} | #{board[5]} "
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
+end
+
+# code your #position_taken? method here!
+def position_taken?(board, index)
+  if (board[index] ==" "|| board[index] == "" || board[index] == nil)
+  return false;
+else 
+  return true
+end
 end
 
 # code your #valid_move? method here
